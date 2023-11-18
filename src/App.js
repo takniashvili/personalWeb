@@ -88,7 +88,7 @@ function App() {
                       src={locationIcon}
                       alt="location"
                     />{" "}
-                    Georgia,Tbilisi.
+                    <div className="location-text"> Georgia,Tbilisi. </div>
                   </div>
                   <div className="partFour-facebook">
                     <img className="fbIcon" src={facebookIcon} alt="facebook" />{" "}
@@ -97,7 +97,7 @@ function App() {
                       href="https://www.facebook.com/giorgi.tayniashvili.108/"
                       alt="facebookLink"
                     >
-                      @giorgi takniashvili{" "}
+                      <div className="fb-text"> @giorgi takniashvili </div>
                     </a>
                   </div>
                   <div className="partFour-gmail">
@@ -106,7 +106,10 @@ function App() {
                       src={gmailIcon}
                       alt="gmailIcon"
                     />
-                    <div> giorgi.tayniashvili415@gmail.com</div>
+                    <div className="gmail-text">
+                      {" "}
+                      giorgi.tayniashvili415@gmail.com
+                    </div>
                   </div>
                   <div className="partFive-birth">
                     <img
@@ -114,7 +117,7 @@ function App() {
                       src={birthIcon}
                       alt="birthIcon"
                     />
-                    <div> 15/04/2003 </div>
+                    <div className="birth-text"> 15/04/2003 </div>
                   </div>
                 </div>
               </div>
@@ -189,7 +192,7 @@ function App() {
                       src={locationIcon}
                       alt="location"
                     />{" "}
-                    Georgia,Tbilisi.
+                    <div className="location-textL"> Georgia,Tbilisi. </div>
                   </div>
                   <div className="partFour-facebook">
                     <img className="fbIcon" src={facebookIcon} alt="facebook" />{" "}
@@ -198,7 +201,7 @@ function App() {
                       href="https://www.facebook.com/giorgi.tayniashvili.108/"
                       alt="facebookLink"
                     >
-                      @giorgi takniashvili{" "}
+                      <div className="fb-textL"> @giorgi takniashvili </div>{" "}
                     </a>
                   </div>
                   <div className="partFour-gmailL">
@@ -207,7 +210,10 @@ function App() {
                       src={gmailIcon}
                       alt="gmailIcon"
                     />
-                    <div> giorgi.tayniashvili415@gmail.com</div>
+                    <div className="gmail-textL">
+                      {" "}
+                      giorgi.tayniashvili415@gmail.com
+                    </div>
                   </div>
                   <div className="partFive-birthL">
                     <img
@@ -215,7 +221,7 @@ function App() {
                       src={birthIcon}
                       alt="birthIcon"
                     />
-                    <div> 15/04/2003 </div>
+                    <div className="birth-textL"> 15/04/2003 </div>
                   </div>
                 </div>
               </div>

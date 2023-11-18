@@ -147,7 +147,7 @@
     margin-bottom: 24px;
 }
 .partThree-width {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     padding: 18px 14px 18px 14px;
     display: flex;
     align-items: center;
@@ -158,7 +158,7 @@
     gap: 20px;
 }
 .partThree-numbers {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     font-weight: 700;
     font-size: 16px;
     color: #2B3442;
@@ -192,9 +192,10 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    color: #4B6A9B;
     font-weight: 400;
     font-size: 13px;
+}.location-text {
+    color: #4B6A9B;
 }
 .partFour-facebook {
     display: flex;
@@ -204,29 +205,32 @@
     font-size: 13px;
 }.partFour-facebook-a {
     text-decoration: none;
+}.fb-text {
     color: #0079FF;
-}.partFour-facebook-a:hover {
+}.fb-text:hover {
     color: #9ac9fe;
 }
 .partFour-gmail {
     transition: color 1s ease;
-    color: #4B6A9B;
     display: flex;
     align-items: center;
     gap: 20px;
     font-weight: 400;
     font-size: 12px;
     text-align: center
+}.gmail-text {
+    color: #4B6A9B;
 }
 .partFive-birth {
     transition: color 1s ease;
-    color: #4B6A9B;
     display: flex;
     align-items: center;
     gap: 20px;
     font-weight: 400;
     font-size: 13px;
     text-align: center
+}.birth-text {
+    color: #4B6A9B;
 }
 
 /*  set up for dark mode */
@@ -240,21 +244,21 @@
    color: #000000;
 }
 .george-textL {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     font-weight: 700;
     font-size: 16px;
     line-height: 23.25px;
     color: #FFFFFF;
 }
 .joined-textL {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     font-weight: 400;
     font-size: 13px;
     color: #FFFFFF;
     line-height: 23.25px;
 }
 .partTwoL {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     margin-top: 33px;
     margin-bottom: 23px;
     line-height: 25px; 
@@ -263,8 +267,8 @@
     color: #FFFFFF;
 }
 .partThreeL {
-    transition: color 1s ease;
-    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+    transition: background-color 0.3s ease;
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -275,7 +279,7 @@
     margin-bottom: 24px;
 }
 .partThree-widthL {
-    transition: color 1s ease;
+    transition: color 0.3s ease;
     padding: 18px 14px 18px 14px;
     display: flex;
     align-items: center;
@@ -286,39 +290,47 @@
     gap: 20px;
 }
 .partThree-numbersL {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
 }
 .partFour-locationL {
-    transition: color 1s ease;
+    transition: color 0.5s ease;
     display: flex;
     gap: 20px;
     align-items: center;
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 13px;
+}.location-textL {
+    color: #FFFFFF;
+}
+.fb-textL {
+    color: #0079FF;
+}.fb-textL:hover {
+    color: #8fc3ff;
 }
 .partFour-gmailL {
-    transition: color 1s ease;
-    color: #FFFFFF;
+    transition: color 0.5s ease;
     display: flex;
     align-items: center;
     gap: 20px;
     font-weight: 400;
     font-size: 12px;
     text-align: center
+}.gmail-textL {
+    color: #FFFFFF;
 }
 .partFive-birthL {
-    transition: color 1s ease;
-    color: #FFFFFF;
+    transition: color 0.5s ease;
     display: flex;
     align-items: center;
     gap: 20px;
     font-weight: 400;
     font-size: 13px;
     text-align: center
+}.birth-textL {
+    color: #FFFFFF;
 }
 /* 
 #141D2F
