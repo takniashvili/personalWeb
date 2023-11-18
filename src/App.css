@@ -1,38 +1,326 @@
+/*  HEADER  */
 .App {
-  text-align: center;
+    padding: 0px 12px 31px 12px;
+}
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 31px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #222731;
+    gap: 100px;
+}
+.personalWebD {
+    transition: color 2s ease;
+    color: #ffffff;
+}
+.personalWebL {
+    transition: color 2s ease;
+}
+.personalWeb-lineL {
+    transition: color 3s ease;
+    margin-top: 10px;
+    background-color: #4B6A9B;
+    width: 100%;
+    height: 2px;
+}
+.personalWeb-lineD {
+    transition: color 2s ease;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+}
+.dark {
+    letter-spacing: 2px;
+    transition: color 2s ease;
+    font-size: 13px;
+    color: #4B6A9B;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}.darkClick {
+    cursor: pointer;
+}
+.light {
+    transition: color 2s ease;
+    font-size: 13px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark-mode {
+    transition: background-color 1s ease-out;
+    background-color: #F6F8FF;
+    box-shadow: 0px 16px 30px -10px #4660BB33;
+    color: #ffffff;
+}.light-mode {
+    transition: background-color 0.5s ease;
+    background-color: #141d2f;
+    color: #000000; 
+}
+/*  MAIN  */
+.mainWidth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainParent {
+    transition: background-color 1s ease;
+    width: 327px;
+    border-radius: 10px;
+    margin-top: 52px;
+    height: 517px;
+    background-color: #FEFEFE;
+}
+.mainChild {
+    color: black;
+    padding: 32px 24px 48px 24px;
+}
+.profileImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.firstPart {
+    display: flex;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.firstPart-column {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.george-text {
+    transition: color 1s ease;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.25px;
+    color: #2B3442;
+}
+.takniashvili-a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #0079FF;
+    line-height: 19.25px;
+}.takniashvili-a:hover {
+    color: #9ac9fe;
+}
+.joined-text {
+    transition: color 1s ease;
+    font-weight: 400;
+    font-size: 13px;
+    color: #697C9A;
+    line-height: 23.25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.partTwo {
+    transition: color 1s ease;
+    margin-top: 33px;
+    margin-bottom: 23px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4B6A9B;
 }
 
-.App-link {
-  color: #61dafb;
+.partThreeParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partThree {
+    transition: background-color 1s ease;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #F6F8FF;
+    width: 200px;
+    height: 85px;
+    margin-bottom: 24px;
+}
+.partThree-width {
+    transition: color 1s ease;
+    padding: 18px 14px 18px 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #4B6A9B;
+    font-weight: 400;
+    font-size: 11px;
+    gap: 20px;
+}
+.partThree-numbers {
+    transition: color 1s ease;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2B3442;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.partFour {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
 }
+.fbIcon {
+    width: 24px;
+    height: 24px;
+}
+.locationIcon {
+    width: 24px;
+    height: 24px;
+}
+.gmailIcon {
+    width: 24px;
+    height: 24px;
+}
+.birthIcon {
+    width: 24px;
+    height: 24px;
+}
+.partFour-location {
+    transition: color 1s ease;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #4B6A9B;
+    font-weight: 400;
+    font-size: 13px;
+}
+.partFour-facebook {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+}.partFour-facebook-a {
+    text-decoration: none;
+    color: #0079FF;
+}.partFour-facebook-a:hover {
+    color: #9ac9fe;
+}
+.partFour-gmail {
+    transition: color 1s ease;
+    color: #4B6A9B;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center
+}
+.partFive-birth {
+    transition: color 1s ease;
+    color: #4B6A9B;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center
+}
+
+/*  set up for dark mode */
+.mainParentL {
+   width: 327px;
+   border-radius: 10px;
+   margin-top: 52px;
+   height: 517px;
+   transition: background-color 0.5s ease;
+   background-color: #1E2A47;
+   color: #000000;
+}
+.george-textL {
+    transition: color 1s ease;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.25px;
+    color: #FFFFFF;
+}
+.joined-textL {
+    transition: color 1s ease;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 23.25px;
+}
+.partTwoL {
+    transition: color 1s ease;
+    margin-top: 33px;
+    margin-bottom: 23px;
+    line-height: 25px; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.partThreeL {
+    transition: color 1s ease;
+    transition: background-color 1s ease;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #141D2F;
+    color: #FFFFFF;
+    width: 200px;
+    height: 85px;
+    margin-bottom: 24px;
+}
+.partThree-widthL {
+    transition: color 1s ease;
+    padding: 18px 14px 18px 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    gap: 20px;
+}
+.partThree-numbersL {
+    transition: color 1s ease;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.partFour-locationL {
+    transition: color 1s ease;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+}
+.partFour-gmailL {
+    transition: color 1s ease;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center
+}
+.partFive-birthL {
+    transition: color 1s ease;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center
+}
+/* 
+#141D2F
+figma.com/file/xIHLusLUEd92bUacWp4c6T?type=design%27&node-id=0:1
+*/
